@@ -15,7 +15,9 @@ int main()
 	//printf("%p\n", pb);
 	//*pa = 0;
 	*pb = 0;//如果指针类型不匹配，只会修改一部分字节的值
+	//int* p 能够访问4个字节
+	//char* p 能够访问一个字节
+	//double* p 能够访问8个字节
 	printf("%p\n", a);
-	
 	return 0;
 }
